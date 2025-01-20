@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
     }
   private  fun makePostRequest() {
-      Log.e("welcome","welcome")
+
          val apiService = RetrofitClient.createService(ApiInterface::class.java)
 
         // Request payload
